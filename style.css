@@ -1,0 +1,305 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui;
+}
+
+header{
+    background-color: #FFC244;
+    padding-bottom: 50px;
+}
+#header-part1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 14%;
+    position: fixed;
+    background-color: #FFC244;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 1000;
+}
+#header-part1 svg{
+    width: 120px;
+
+}
+button{
+    background-color: #00a082;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: #017963;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+#header-part2{
+    padding-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header-part2 h1{
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#header-part2 b{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+   
+}
+#header-part2-description{
+        width: 530px;
+}
+#adresse{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+#votre-adresse span{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-left: 5px;
+}
+#position{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #E9F8F5;
+    color: #017963;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+#position span{
+    margin-left: 5px;
+}
+section{
+    text-align: center;
+    padding: 65px 0;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+#restaurants{
+    display: flex;
+    flex-direction: column;
+    gap: 60PX;
+    align-items: center;
+    margin: 50px 0;
+}
+#restaurants-part1 ,#restaurants-part2{
+    display: flex;
+    gap: 100PX;
+}
+#restaurants-part1 div{
+}
+#restaurants-part1 h3, #restaurants-part2 h3{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #FFC244;
+    padding: 3px 10px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 10px;
+}
+#restaurants img{
+    width: 130px;
+    border-radius: 50px;
+    height: 100px;
+    object-fit: cover;
+}
+#section2-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50PX;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    
+}
+#section2-content div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10PX;
+    padding: 20px 0;
+}
+#section2-content span{
+    background-color: #FEC144;
+    padding: 0 6px;
+    margin: -5px 0;
+    border-radius: 15px;
+}
+#section2-content h3{
+    font-size: 1.3em;
+}
+#section2 button{
+    padding: 15px 60px;
+    border-radius: 30px;
+}
+#section3{
+    background-color: #FFC244;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 60PX;
+}
+#section3 h2{
+    font-size: 42px;
+}
+#villes , #categories , #marques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10PX;
+    padding: 30px 0;
+}
+#section3 div div a{
+    color: black;
+    background-color: #FFF3DA;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+#section3 button{
+    margin: 20px 0;
+    padding: 15px 70px;
+    border-radius: 40px;
+}
+
+#section4{
+    padding: 0%;
+    display: flex;
+    align-items: center;
+}
+#app-image{
+    width: 80%;
+    height: 70%;
+    position: relative;
+    bottom: 290px;
+    z-index: -500;
+    
+}
+#download-app-content{
+    width: 70%;
+    position: relative;
+    bottom: 250px;
+}
+#download-app-content p{
+    margin: 10px 0;
+}
+#download-app-links img{
+    margin: 10px;
+}
+#section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E9F8F5;
+}
+#section5 img{
+    margin: 30px;
+}
+#opportunites{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    gap: 60PX;
+
+
+}
+#opportunites div{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#devenir-partenaire{
+    width: 330px;
+}
+#opportunites div button{
+   padding: 12PX 45px;
+   margin-top: 20px;
+}
+
+footer{
+    background-color: #1D1D1D;
+    color: white;
+    padding: 20px 10%;
+   
+}
+footer a{
+    color: #C6C6C6;
+    font-size: 15px;
+    font-weight: 600;
+}
+footer h2{
+    font-size: 20px;
+}
+#footer-columns{
+    display: flex;
+    justify-content: center;
+    padding: 20px 5PX;
+     gap: 30PX;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15PX;
+    flex: 1;
+}
+#marques-populaires,#categories-populaires{
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+#marques-populaires a,#categories-populaires a{
+    padding-right: 15px;
+}
+select{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    width: 230px;
+    padding: 10px;
+}
+option{
+    color: black;
+}
+
+@media screen and ( max-width:1100PX) {
+    
+    #header-part1{
+        padding: 10px 20px;
+    }
+    #header-part2{
+        flex-direction: column;
+        text-align: center;
+    }
+    #header-part2 img{
+        height: 300px;
+    }
+    #header-part2 h1{
+        font-size: 40px;
+    }
+    #section1 div{
+        gap: 30PX;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
